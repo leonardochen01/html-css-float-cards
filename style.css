@@ -2,26 +2,51 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Fredoka One', cursive;
 }
 
 h1 {
-  font-family: 'Fredoka One', cursive;
   font-weight: 600;
   text-align: center;
   padding-top: 50px;
   color: rgb(229, 49, 112);
 }
 
-h2 {
+#text {
   text-align: center;
+  font-size: 15px;
+  padding-bottom: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.male, .female {
 }
 
 main {
   background-color: beige;
   min-height: 700px;
   margin: 50px 300px;
+  padding: 0px;
 }
 
-div {
+img {
+  width: 100px;
+  height: 100px;
+}
+
+main div {
+  background-color: black;
+  width: calc(100% / 3 - 20px);
+  float: left;
+  margin: 10px 10px;
+}
+
+.nome, .ruolo, .email {
   display: inline-block;
+  color: white;
+  float: right;
+}
+
+.nome {
+  float:right
 }
